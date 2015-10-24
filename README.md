@@ -1,4 +1,4 @@
-# plugins
+# Plugins
 List of SocketCluster plugins/modules.
 
 If you've built a frontend or backend plugin for SocketCluster, feel free to make a PR and share it with the community.
@@ -8,16 +8,16 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 **Frontend**
 
-- sc-field https://github.com/SocketCluster/sc-field
-- sc-collection https://github.com/SocketCluster/sc-collection
+- ```sc-field``` https://github.com/SocketCluster/sc-field - A Polymer component which represents a realtime auto-updating data field from ```sc-crud-rethink```.
+- ```sc-collection``` https://github.com/SocketCluster/sc-collection - A Polymer component which represents a realtime auto-updating collection from ```sc-crud-rethink```.
 
 **Backend**
 
-- sc-crud-rethink https://github.com/SocketCluster/sc-crud-rethink
+- ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC.
 
 ## Enterprise service plugins
 
-If you have an idea for a plugin which will deliver a service around SC, get in touch with me (https://github.com/jondubois) and
+If you have an idea for a plugin which will deliver a service around SC (it doesn't have to be a free service), get in touch with me (https://github.com/jondubois) and
 I might list it here as an official plugin (if it meets quality standards). This should allow you to quickly build a customer base from existing SC users.
 
 **Backend**
