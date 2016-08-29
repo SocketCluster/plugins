@@ -10,6 +10,7 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 - ```sc-field``` https://github.com/SocketCluster/sc-field - A Polymer component which represents a realtime auto-updating data field from ```sc-crud-rethink```.
 - ```sc-collection``` https://github.com/SocketCluster/sc-collection - A Polymer component which represents a realtime auto-updating collection from ```sc-crud-rethink```.
+- ```vue-socketcluster``` https://github.com/happilymarrieddad/vue-socketcluster - A Vue component which integrates socketcluster-client directly into VueJS.
 
 **Backend**
 
