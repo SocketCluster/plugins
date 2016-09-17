@@ -16,6 +16,8 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 - ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC.
 
+- ```sc-crud-mysql``` https://github.com/happilymarrieddad/sc-crud-mysql - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and MySQL.
+
 ## Enterprise service plugins
 
 If you have an idea for a plugin which will deliver a service around SC (it doesn't have to be a free service), get in touch with me (https://github.com/jondubois) and
