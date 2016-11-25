@@ -23,7 +23,7 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 **Codecs (Frontend + Backend)**
 
-- ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a lightweight binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
+- ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
 
 ## Contribution guidelines
 
