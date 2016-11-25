@@ -10,6 +10,8 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 ## Open source plugins
 
+### CRUD
+
 **Frontend**
 
 - ```sc-field``` https://github.com/SocketCluster/sc-field - A Polymer component which represents a realtime auto-updating data field from ```sc-crud-rethink```.
@@ -21,7 +23,7 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 - ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and RethinkDB.
 - ```sc-crud-mysql``` https://github.com/happilymarrieddad/sc-crud-mysql - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and MySQL.
 
-**Codecs (Frontend + Backend)**
+### Codecs (Frontend + Backend)
 
 - ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
 
