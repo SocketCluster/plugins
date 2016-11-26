@@ -6,7 +6,7 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 ## Clients drivers
 
-The curated list of available client drivers for SC is here: https://github.com/SocketCluster/client-drivers
+The curated list of client drivers for SC is here: https://github.com/SocketCluster/client-drivers
 
 ## Open source plugins
 
