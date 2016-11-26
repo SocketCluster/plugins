@@ -4,6 +4,10 @@ List of SocketCluster plugins/modules.
 If you've built a frontend or backend plugin for SocketCluster, feel free to make a PR and share it with the community.
 The idea is that this repo will eventually turn into "a marketplace for SocketCluster plugins".
 
+## Clients drivers
+
+The curated list of available client drivers for SC is here: https://github.com/SocketCluster/client-drivers
+
 ## Open source examples
 
 - ```VueCluster``` https://github.com/VueCluster/VueCluster - A high-speed, server-less framework based off of Socketcluster and VueJS-2.
