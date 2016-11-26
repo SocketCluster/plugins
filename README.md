@@ -8,10 +8,6 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 The curated list of available client drivers for SC is here: https://github.com/SocketCluster/client-drivers
 
-## Open source examples
-
-- ```VueCluster``` https://github.com/VueCluster/VueCluster - A high-speed, server-less framework based off of Socketcluster and VueJS-2.
-
 ## Open source plugins
 
 ### CRUD
@@ -30,6 +26,10 @@ The curated list of available client drivers for SC is here: https://github.com/
 ### Codecs
 
 - ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
+
+## Open source examples
+
+- ```VueCluster``` https://github.com/VueCluster/VueCluster - A high-speed, server-less framework based off of Socketcluster and VueJS-2.
 
 ## Contribution guidelines
 
