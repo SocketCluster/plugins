@@ -25,7 +25,16 @@ The curated list of client drivers for SC is here: https://github.com/SocketClus
 
 ### Codecs
 
+Codecs are useful for compressing entire SC messages into another intermediary format before they are are sent over the wire - They are also responsible for decompressing messages back into their original SC protocol format when they arrive on the other side.
+
 - ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
+
+### Broker Engines
+
+A broker engine is reponsible for sharing/synchronizing pub/sub channels (and optionally, data) between SC brokers. A broker engine is responsible for exposing an `exchange` object for interacting with message brokers on the backend. The API of different broker engines may vary.
+
+- ```sc-redis-broker``` https://github.com/rapidops/sc-redis-broker - This broker engine allows your SC workers to synchronize their pub/sub channels directly through Redis (instead of going through sc-broker).
+
 
 ## Open source examples
 
