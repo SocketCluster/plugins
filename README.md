@@ -10,6 +10,11 @@ The curated list of client drivers for SC is here: https://github.com/SocketClus
 
 ## Open source plugins
 
+### Presence
+
+- ```sc-stateless-presence``` https://github.com/SocketCluster/sc-stateless-presence - A simple client and server plugin which allow you to easily track user presence across channels in real-time. Works without the need for a datastore or database. Optimized for front end use.
+- ```sc-presence``` https://github.com/coinigy/sc-presence - A presence plugin which uses MySQL to track user presence in real-time. Optimized for back end use.
+
 ### CRUD
 
 **Frontend**
@@ -23,13 +28,17 @@ The curated list of client drivers for SC is here: https://github.com/SocketClus
 - ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and RethinkDB.
 - ```sc-crud-mysql``` https://github.com/happilymarrieddad/sc-crud-mysql - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and MySQL.
 
+### Protocol standardization
+
+- ```wamp-socket-cluster``` https://github.com/LiskHQ/wamp-socket-cluster - A plugin which allows you to wrap SocketCluster to turn it into a compliant WAMP protocol server.
+
 ### Codecs
 
 Codecs are useful for compressing entire SC messages into another intermediary format before they are are sent over the wire - They are also responsible for decompressing messages back into their original SC protocol format when they arrive on the other side.
 
 - ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
 
-### Broker Engines
+### Broker engines
 
 A broker engine is reponsible for sharing/synchronizing pub/sub channels (and optionally, data) between SC brokers. A broker engine is responsible for exposing an `exchange` object for interacting with message brokers on the backend. The API of different broker engines may vary.
 
