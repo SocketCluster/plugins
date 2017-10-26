@@ -22,6 +22,8 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 - ```sc-crud-mysql``` https://github.com/happilymarrieddad/sc-crud-mysql - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and MySQL.
 
+- ```sc-publish-out-queue``` https://github.com/happilymarrieddad/sc-publish-out-queue - Queue's up the outbound published messages so that the event loop doesn't get bottled up from thousands of messages being sent at one time.
+
 ## Enterprise service plugins
 
 If you have an idea for a plugin which will deliver a service around SC (it doesn't have to be a free service), get in touch with me (https://github.com/jondubois) and
