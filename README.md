@@ -4,11 +4,16 @@ List of SocketCluster plugins/modules.
 If you've built a frontend or backend plugin for SocketCluster, feel free to make a PR and share it with the community.
 The idea is that this repo will eventually turn into "a marketplace for SocketCluster plugins".
 
-## Open source examples
+## Clients drivers
 
-- ```VueCluster``` https://github.com/VueCluster/VueCluster - A high-speed, server-less framework based off of Socketcluster and VueJS-2.
+The curated list of client drivers for SC is here: https://github.com/SocketCluster/client-drivers
 
-## Open source plugins
+### Presence
+
+- ```sc-stateless-presence``` https://github.com/SocketCluster/sc-stateless-presence - A simple client and server plugin which allow you to easily track user presence across channels in real-time. Works without the need for a datastore or database. Optimized for front end use.
+- ```sc-presence``` https://github.com/coinigy/sc-presence - A presence plugin which uses MySQL to track user presence in real-time. Optimized for back end use.
+
+### CRUD
 
 **Frontend**
 
@@ -18,20 +23,30 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 **Backend**
 
-- ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC.
-
+- ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and RethinkDB.
 - ```sc-crud-mysql``` https://github.com/happilymarrieddad/sc-crud-mysql - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and MySQL.
-
 - ```sc-publish-out-queue``` https://github.com/happilymarrieddad/sc-publish-out-queue - Queue's up the outbound published messages so that the event loop doesn't get bottled up from thousands of messages being sent at one time.
 
-## Enterprise service plugins
+### Protocol standardization
 
-If you have an idea for a plugin which will deliver a service around SC (it doesn't have to be a free service), get in touch with me (https://github.com/jondubois) and
-I might list it here as an official plugin (if it meets quality standards). This should allow you to quickly build a customer base from existing SC users.
+- ```wamp-socket-cluster``` https://github.com/LiskHQ/wamp-socket-cluster - A plugin which allows you to wrap SocketCluster to turn it into a compliant WAMP protocol server.
 
-**Backend**
+### Codecs
 
-- Coming soon: A service plugin to allow realtime monitoring/analysis of pub/sub channels within SC.
+Codecs are useful for compressing entire SC messages into another intermediary format before they are are sent over the wire - They are also responsible for decompressing messages back into their original SC protocol format when they arrive on the other side.
+
+- ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
+
+### Broker engines
+
+A broker engine is reponsible for sharing/synchronizing pub/sub channels (and optionally, data) between SC brokers. A broker engine is responsible for exposing an `exchange` object for interacting with message brokers on the backend. The API of different broker engines may vary.
+
+- ```sc-redis-broker``` https://github.com/rapidops/sc-redis-broker - This broker engine allows your SC workers to synchronize their pub/sub channels directly through Redis (instead of going through sc-broker).
+
+
+## Open source examples
+
+- ```VueCluster``` https://github.com/VueCluster/VueCluster - A high-speed, server-less framework based off of Socketcluster and VueJS-2.
 
 ## Contribution guidelines
 
