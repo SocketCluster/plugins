@@ -8,8 +8,6 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 The curated list of client drivers for SC is here: https://github.com/SocketCluster/client-drivers
 
-## Open source plugins
-
 ### Presence
 
 - ```sc-stateless-presence``` https://github.com/SocketCluster/sc-stateless-presence - A simple client and server plugin which allow you to easily track user presence across channels in real-time. Works without the need for a datastore or database. Optimized for front end use.
@@ -27,6 +25,7 @@ The curated list of client drivers for SC is here: https://github.com/SocketClus
 
 - ```sc-crud-rethink``` https://github.com/SocketCluster/sc-crud-rethink - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and RethinkDB.
 - ```sc-crud-mysql``` https://github.com/happilymarrieddad/sc-crud-mysql - A Create Read Update Delete (CRUD) module/layer to allow you to quickly write "server-less" realtime apps using SC and MySQL.
+- ```sc-publish-out-queue``` https://github.com/happilymarrieddad/sc-publish-out-queue - Queue's up the outbound published messages so that the event loop doesn't get bottled up from thousands of messages being sent at one time.
 
 ### Protocol standardization
 
