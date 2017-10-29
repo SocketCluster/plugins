@@ -8,6 +8,8 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 The curated list of client drivers for SC is here: https://github.com/SocketCluster/client-drivers
 
+## Open source plugins
+
 ### Presence
 
 - ```sc-stateless-presence``` https://github.com/SocketCluster/sc-stateless-presence - A simple client and server plugin which allow you to easily track user presence across channels in real-time. Works without the need for a datastore or database. Optimized for front end use.
