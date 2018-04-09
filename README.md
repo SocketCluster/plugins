@@ -22,6 +22,7 @@ The curated list of client drivers for SC is here: https://github.com/SocketClus
 - ```sc-field``` https://github.com/SocketCluster/sc-field - A Polymer component which represents a realtime auto-updating data field from ```sc-crud-rethink```.
 - ```sc-collection``` https://github.com/SocketCluster/sc-collection - A Polymer component which represents a realtime auto-updating collection from ```sc-crud-rethink```.
 - ```vue-socketcluster``` https://github.com/happilymarrieddad/vue-socketcluster - A Vue component which integrates socketcluster-client directly into VueJS.
+- ```vue2-socketcluster``` https://github.com/happilymarrieddad/vue2-socketcluster - A Vue 2 component which integrates socketcluster-client directly into VueJS 2.
 
 **Backend**
 
