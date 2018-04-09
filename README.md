@@ -8,6 +8,8 @@ The idea is that this repo will eventually turn into "a marketplace for SocketCl
 
 The curated list of client drivers for SC is here: https://github.com/SocketCluster/client-drivers
 
+## Open source plugins
+
 ### Presence
 
 - ```sc-stateless-presence``` https://github.com/SocketCluster/sc-stateless-presence - A simple client and server plugin which allow you to easily track user presence across channels in real-time. Works without the need for a datastore or database. Optimized for front end use.
@@ -36,6 +38,7 @@ The curated list of client drivers for SC is here: https://github.com/SocketClus
 Codecs are useful for compressing entire SC messages into another intermediary format before they are are sent over the wire - They are also responsible for decompressing messages back into their original SC protocol format when they arrive on the other side.
 
 - ```sc-codec-min-bin``` https://github.com/SocketCluster/sc-codec-min-bin - A codec for compressing SC messages into a minimal binary format before transmiting them over the wire. This is ideal for games and other high-throughput applications.
+- ```sc-codec-pbf``` https://github.com/sammccord/sc-codec-pbf - A codec for decoding and encoding protocol buffers, a compact binary format for structured data serialization. Extremely fast and light, but requires that you only send objects that can be encoded with a proto message you define at configuration time, or strings.
 
 ### Broker engines
 
