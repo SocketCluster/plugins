@@ -2,7 +2,7 @@
 List of SocketCluster plugins/modules.
 
 If you've built a frontend or backend plugin for SocketCluster, feel free to make a PR and share it with the community.
-The idea is that this repo will eventually turn into "a marketplace for SocketCluster plugins".
+The idea is that this repo will eventually turn into "A marketplace for SocketCluster plugins".
 
 ## Clients drivers
 
